@@ -84,7 +84,7 @@ z = x + y   # throws a type mismatch (TypeError)
 | Expression	| Description	| Result (if x = [0,1,2,3,4]) |
 | ---- | ---- | ---- |
 | x[0] | First element of the sequence | 0 |
-| x[1] | Second element	1 |
+| x[1] | Second element	| 1 |
 | x[-1] | Last element | 4 |
 | x[-2] | Second to last | 3 |
 | x[1:-2] | All of the elements including the second up to but not including the second to last	| [1, 2] |
