@@ -88,7 +88,7 @@ z = x + y   # throws a type mismatch (TypeError)
 | x[-1] | Last element | 4 |
 | x[-2] | Second to last | 3 |
 | x[1:-2] | All of the elements including the second up to but not including the second to last	| [1, 2] |
-| x[2:] | All of the elements from the third to the end	[2, 3, 4]
+| x[2:] | All of the elements from the third to the end	| [2, 3, 4]
 | x[:3]	| All of the elements from the beginning up to but not including the fourth	| [0, 1, 2] | 
 | x[:] | All of the elements (returns a copy of x) | [0, 1, 2, 3, 4] |
 | x[0:4:2] | Start at the first element, then every other one up to but not including the fifth | [0, 2] |
