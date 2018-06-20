@@ -1,14 +1,14 @@
 # Expression Types
 | Type | Example |
 | ---- | ------- |
-| Integer | 4,  0,  or  -12 |
-| Floating Point | 4.0,  0.0,  or  -12.0 |
-| Boolean | True  or  False |
-| Complex | not used in this course |
+| Integer | **4**,  **0**,  or  **-12** |
+| Floating Point | **4.0**,  **0.0**,  or  **-12.0** |
+| Boolean | **True**  or  **False** |
+| Complex | *not used in this course* |
 
 | Type | Description | Example |
 | ---- | ----------- | ------- |
-| String	| Immutable ordered sequence of characters, uses quote or double quote or block quotes | 'string'  or  "string"  or '''string'''  or  """string""" |
+| String	| Immutable ordered sequence of characters, uses quote or double quote or block quotes | **'string'**  or  **"string"**  or **'''string'''**  or  **"""string"""** |
 | List | Mutable ordered sequence, always in brackets | [1 , 2, 'three', 4] |
 | Tuple	| Immutable ordered sequence, always in parentheses | (a, b, c) |
 | Set |	Unordered collection with no duplicates, uses curly braces | { 1, 3, 6 } |
@@ -16,18 +16,18 @@
 
 
 # Numeric Operators
-| Operation	| Code | Math |
+| Operation	| Math | Code |
 | --------- | ---- | ---- |
-| Addition	| 5 + 2	| 5 + 2 = 7 |
-| Subtraction	| 5 - 2	| 5 - 2 = 3 |
-| Multiplication	| 5 * 2	| 5 x 2 = 10 |
-| Division	| 5 / 2	| 5 / 2 = 1.5 |
-| Floor Division	| 5 // 2	| ⌊5/2⌋ = 1 |
-| Modulus Division	| 5 % 2	| 5 mod 2 = 1 |
-| Negation	| -2	| -2 |
-| Exponent	| 5 ** 2	| 52 = 25 |
-| Absolute Value |abs(-2)	| \|-2\| = 2 |
-| Square Root*	| Math.sqrt(2)	| √2 |
+| Addition	| 5 + 2 = 7 | 5 + 2	|
+| Subtraction	| 5 - 2 = 3 | 5 - 2	|
+| Multiplication	| 5 x 2 = 10 | 5 * 2	|
+| Division	| 5 / 2 = 1.5 | 5 / 2	|
+| Floor Division	| ⌊5/2⌋ = 1 | 5 // 2	|
+| Modulus Division	| 5 mod 2 = 1 | 5 % 2	|
+| Negation	| -2 | -2	|
+| Exponent	| 52 = 25 | 5 ** 2	|
+| Absolute Value |  \|-2\| = 2 | abs(-2)	|
+| Square Root*	| √̅₂̅  | Math.sqrt(2)	|
 
 \* requires that the Math module is already imported
 
